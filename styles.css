@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9f8;
+    
+}
+
+.card-title {
+    color: #007bff;
+}
+
+
+#coins-container .card {
+    transition: transform 0.2s ease;}
+
+#coin-container .card:hover {
+    transform: scale(1.05);
+}
+
+#bitcoin-info img {
+  border-radius: 50%;
+}
