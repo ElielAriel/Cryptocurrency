@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+
+.coin-card {
+  margin-bottom: 15px;
+}
+
+#report {
+  font-size: 16px;
+}
+
+
+.spinner {
+  font-size: 14px;
+  color: blue;
+}
+
+
+.progress {
+  margin: 16px auto;
+  width: 70%;
+}
+
+
+.more-info img {
+  border-radius: 6px;
+}
+
+
+.badge-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selected-badge {
+  display: none;          
+}
+
+.selected-badge.show {
+  display: inline-block;   
+}
